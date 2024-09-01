@@ -1,0 +1,28 @@
+.container{
+    background-color: antiquewhite;
+    padding: 10px;
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid black;
+    grid-template-columns: repeat(autofil,100px);
+    grid-template-rows: 100px 100px 100px;
+    
+    grid-gap: 10px 10px;
+    
+}
+ .item{
+   background-color: tomato;
+   color: aliceblue;
+   padding: 1px;
+ }
+ .item1{
+   grid-row: 1/3;
+   grid-column: 1/3;
+ }
+ .item2{
+   grid-row: 1/3;
+    
+ }
+ 
+ 
